@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1250" ?>
+<?xml-stylesheet type="text/xsl" href="PAGE3.XSL" version="1.0" ?>
+<PAGE>
+<ACCESS PAGE_LEVEL="0" USER_LEVEL="0" UCID="36" />
+<INPUT NAME="__R4280_STRING[30]_s" VALUE="0" />
+<INPUT NAME="__R0_STRING[30]_s" VALUE="0" />
+<INPUT NAME="__R4311_STRING[30]_s" VALUE="0" />
+<INPUT NAME="__R4342_STRING[30]_s" VALUE="0" />
+<INPUT NAME="__R4373_STRING[30]_s" VALUE="0" />
+<INPUT NAME="__R4404_STRING[30]_s" VALUE="0" />
+<INPUT NAME="__R6093_SINT_d" VALUE="0" />
+<INPUT NAME="__R4435.0_BOOL_i" VALUE="0" />
+<INPUT NAME="__R5000.0_BOOL_i" VALUE="0" />
+<INPUT NAME="__R5000.1_BOOL_i" VALUE="0" />
+<INPUT NAME="__R5100.4_BOOL_i" VALUE="0" />
+<INPUT NAME="__R5200.4_BOOL_i" VALUE="0" />
+<INPUT NAME="__R5300.4_BOOL_i" VALUE="0" />
+</PAGE>

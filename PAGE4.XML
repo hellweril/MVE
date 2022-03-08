@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1250" ?>
+<?xml-stylesheet type="text/xsl" href="PAGE4.XSL" version="1.0" ?>
+<PAGE>
+<ACCESS PAGE_LEVEL="0" USER_LEVEL="0" UCID="25" />
+<INPUT NAME="__R4558_STRING[80]_s" VALUE="0" />
+<INPUT NAME="__R4639_DT_TYYYY-MM-DD-hh:mm:ss.zzz" VALUE="0" />
+<INPUT NAME="__R5368.0_BOOL_i" VALUE="0" />
+<INPUT NAME="__R5450_DT_TYYYY-MM-DD-hh:mm:ss.zzz" VALUE="0" />
+</PAGE>

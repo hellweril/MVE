@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="windows-1250" ?>
+<web version="5.0" foot="© 2007 - 2013 Teco a.s." MaxUid="10467" height="480" width="640" menu="false" title="false" border="false" top="8" left="8" iniScale="100" maxScale="100" useIniScale="false" useMaxScale="fales" userScale="true" webApp="false" bgdupl="false" bgcolor="0" propfont="false" icon="" id18="1" author="Teco a.s." encoding="windows-1250">
+<Grid Enable="1" X="5" Y="5" />
+<group caption="">
+<page caption="poruchy" name="PAGE4.XML" background="" bgcolor="16777215" repeat="false" hidden="false" ajax="true" pause="1000" level="0" ucid="25" width="463" height="166">
+<object caption="" X="39" Y="14" xoff="6" yoff="3" level="0" readonly="true" front="0" back="16777215" strong="true" italic="false" size="16" transparent="true" visneg="false">
+<edit variable="TEXT" type="STRING[80]" intf="1" timf="" align="right" zero="false" prec="0" size="15" global="true" border="false" width="151" height="22" format="%s" />
+</object>
+<object caption="" X="10" Y="14" xoff="3" yoff="3" level="0" readonly="true" front="0" back="16777215" strong="true" italic="false" size="16" transparent="true" visneg="false">
+<edit variable="CAS" type="DT" intf="1" timf="YYYY-MM-DD-hh:mm:ss.zzz" align="right" zero="false" prec="0" size="23" global="true" border="false" width="230" height="22" format="%TYYYY-MM-DD-hh:mm:ss.zzz" />
+</object>
+<object caption="Test uložení" X="6" Y="4" xoff="2" yoff="7" level="0" readonly="false" front="16777215" back="16777215" strong="false" italic="false" size="15" transparent="true" visneg="false">
+<image optcap="" variable="INST_PORUCHY.TEST_ULOZENI" type="BOOL" on="220X40_C.PNG" off="220X40_S.PNG" format="%i" />
+</object>
+<object caption="" X="9" Y="18" xoff="1" yoff="6" level="0" readonly="true" front="0" back="16777215" strong="true" italic="false" size="16" transparent="true" visneg="false">
+<edit variable="INST_PORUCHY.CAS2" type="DT" intf="1" timf="YYYY-MM-DD-hh:mm:ss.zzz" align="right" zero="false" prec="0" size="23" global="true" border="false" width="230" height="22" format="%TYYYY-MM-DD-hh:mm:ss.zzz" />
+</object>
+</page>
+<page caption="komunikace" name="PAGE3.XML" background="" bgcolor="16777215" repeat="false" hidden="false" ajax="true" pause="1000" level="0" ucid="36" width="602" height="366">
+<object caption="" X="5" Y="12" xoff="7" yoff="2" level="0" readonly="true" front="0" back="16777215" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<edit variable="AD01_KOM_ERR" type="STRING[30]" intf="0" timf="" align="left" zero="false" prec="-1" size="30" global="true" border="true" width="245" height="21" format="%s" />
+</object>
+<object caption="" X="5" Y="7" xoff="7" yoff="3" level="0" readonly="true" front="0" back="16777215" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<edit variable="ERR_TXT" type="STRING[30]" intf="0" timf="" align="left" zero="false" prec="-1" size="30" global="true" border="true" width="245" height="21" format="%s" />
+</object>
+<object caption="" X="5" Y="16" xoff="7" yoff="0" level="0" readonly="true" front="0" back="16777215" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<edit variable="AD02_KOM_ERR" type="STRING[30]" intf="0" timf="" align="left" zero="false" prec="-1" size="30" global="true" border="true" width="245" height="21" format="%s" />
+</object>
+<object caption="" X="5" Y="19" xoff="7" yoff="6" level="0" readonly="true" front="0" back="16777215" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<edit variable="AD11_KOM_ERR" type="STRING[30]" intf="0" timf="" align="left" zero="false" prec="-1" size="30" global="true" border="true" width="245" height="21" format="%s" />
+</object>
+<object caption="" X="5" Y="23" xoff="7" yoff="4" level="0" readonly="true" front="0" back="16777215" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<edit variable="AD21_KOM_ERR" type="STRING[30]" intf="0" timf="" align="left" zero="false" prec="-1" size="30" global="true" border="true" width="245" height="21" format="%s" />
+</object>
+<object caption="" X="5" Y="27" xoff="7" yoff="2" level="0" readonly="true" front="0" back="16777215" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<edit variable="AD31_KOM_ERR" type="STRING[30]" intf="0" timf="" align="left" zero="false" prec="-1" size="30" global="true" border="true" width="245" height="21" format="%s" />
+</object>
+<object caption="" X="40" Y="4" xoff="7" yoff="1" level="0" readonly="true" front="0" back="16777215" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<edit variable="INST_RS485.POSL_PRIK" type="SINT" intf="0" timf="" align="left" zero="false" prec="-1" size="3" global="true" border="true" width="29" height="21" format="%d" />
+</object>
+<object caption="Kvitace" X="48" Y="3" xoff="6" yoff="5" level="0" readonly="false" front="16777215" back="16777215" strong="false" italic="false" size="13" transparent="true" visneg="false">
+<image optcap="" variable="KVITACE" type="BOOL" on="" off="220X40_C.PNG" format="%i" />
+</object>
+<object caption="AD01-porucha komunikace" X="43" Y="19" xoff="6" yoff="2" level="0" readonly="true" front="16777215" back="16777215" strong="false" italic="false" size="13" transparent="true" visneg="false">
+<image optcap="AD01-komunikace OK" variable="AD01_KOM_OK" type="BOOL" on="220X40_C.PNG" off="220X40_S.PNG" format="%i" />
+</object>
+<object caption="AD02-porucha komunikace" X="43" Y="24" xoff="6" yoff="7" level="0" readonly="true" front="16777215" back="16777215" strong="false" italic="false" size="13" transparent="true" visneg="false">
+<image optcap="AD02-komunikace OK" variable="AD02_KOM_OK" type="BOOL" on="220X40_C.PNG" off="220X40_S.PNG" format="%i" />
+</object>
+<object caption="AD11-porucha komunikace" X="43" Y="30" xoff="6" yoff="4" level="0" readonly="true" front="16777215" back="16777215" strong="false" italic="false" size="13" transparent="true" visneg="false">
+<image optcap="AD11-komunikace OK" variable="AD11_KOM_OK" type="BOOL" on="220X40_C.PNG" off="220X40_S.PNG" format="%i" />
+</object>
+<object caption="AD21-porucha komunikace" X="43" Y="36" xoff="6" yoff="1" level="0" readonly="true" front="16777215" back="16777215" strong="false" italic="false" size="13" transparent="true" visneg="false">
+<image optcap="AD21-komunikace OK" variable="AD21_KOM_OK" type="BOOL" on="220X40_C.PNG" off="220X40_S.PNG" format="%i" />
+</object>
+<object caption="AD31-porucha komunikace" X="43" Y="41" xoff="6" yoff="6" level="0" readonly="true" front="16777215" back="16777215" strong="false" italic="false" size="13" transparent="true" visneg="false">
+<image optcap="AD31-komunikace OK" variable="AD31_KOM_OK" type="BOOL" on="220X40_C.PNG" off="220X40_S.PNG" format="%i" />
+</object>
+</page>
+<page caption="Ostatni nastaveni" name="PAGE2.XML" background="" bgcolor="16777215" repeat="false" hidden="false" ajax="true" pause="1000" level="0" ucid="10" width="377" height="72">
+<object caption="" X="5" Y="3" xoff="2" yoff="5" level="0" readonly="false" front="0" back="16777215" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<edit variable="SOUMRAK_CAS_OD" type="TIME" intf="0" timf="hh:mm" align="left" zero="false" prec="-1" size="5" global="true" border="true" width="45" height="21" lolim="00:00" hilim="24:00" format="%Thh:mm" />
+</object>
+<object caption="" X="5" Y="7" xoff="2" yoff="3" level="0" readonly="false" front="0" back="16777215" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<edit variable="SOUMRAK_CAS_DO" type="TIME" intf="0" timf="hh:mm" align="left" zero="false" prec="-1" size="5" global="true" border="true" width="45" height="21" lolim="00:00" hilim="24:00" format="%Thh:mm" />
+</object>
+<object caption="Časový režim VYP" X="20" Y="3" xoff="5" yoff="0" level="0" readonly="false" front="16777215" back="16777215" strong="true" italic="false" size="13" transparent="true" visneg="false">
+<image optcap="Časový režim ZAP" variable="SOUMRAK_CAS" type="BOOL" on="220X40_S.PNG" off="220X40_C.PNG" format="%i" />
+</object>
+</page>
+<page caption="Index" name="PAGE1.XML" ajax="true" pause="1000" default="true" ucid="105" width="323" height="81">
+<object caption="" X="25" Y="7" xoff="6" yoff="7" level="0" readonly="false" front="0" back="15790320" strong="false" italic="false" size="13" transparent="false" visneg="false">
+<block width="125" height="25" border="true" />
+</object>
+<object caption="" X="26" Y="8" xoff="0" yoff="1" level="0" readonly="true" front="0" back="16777215" strong="true" italic="false" size="16" transparent="true" visneg="false">
+<edit variable="TG1_VYKON" type="REAL" intf="1" timf="" align="right" zero="false" prec="1" size="7" global="true" border="false" width="72" height="22" format="%.1f" />
+</object>
+<object caption="kWh  " X="35" Y="8" xoff="1" yoff="2" level="0" readonly="false" front="0" back="16777215" strong="true" italic="false" size="16" transparent="true" visneg="false">
+<label />
+</object>
+</page>
+</group>
+<images>
+<img name="220X40_S.PNG" type="PNG" height="40" width="220" time="1401354846" size="1076" />
+<img name="220X40_C.PNG" type="PNG" height="40" width="220" time="1401354983" size="1137" />
+</images>
+<Languages>
+<Language Code="5" Editor="1" />
+</Languages>
+<security crypt="0">
+<user level="0" name="" pass="B6589FC6AB0DC82CF12099D1C2D40AB994E8410C" />
+<user level="-1" name="1" pass="F883CE32A00525EEAD0CA10E76EBE2A223BBC769" />
+<user level="-1" name="2" pass="F2071B366E75CE411D93BA89AC061836A7565785" />
+<user level="-1" name="3" pass="8DA926799A9FDC9B7BDE6DFD6E606E045CD61973" />
+<user level="-1" name="4" pass="A82F35A0E165B22B3A1E0BE7A50DC5C880BD152E" />
+<user level="-1" name="5" pass="7711219ED84538458DB27572BC89995E347B53E7" />
+<user level="-1" name="6" pass="03DFBBF51A611E1611608E77D3414F39A63FF1B5" />
+<user level="-1" name="7" pass="14BCBB2F18BFB98C24ACC8D4DB1E7230C346B690" />
+<user level="-1" name="8" pass="CFC1B5BD696DA32CF735ABC99EEA007C8C659991" />
+<user level="-1" name="9" pass="D7574EFB66ED0BF48D3EA4AC58AFA6EA689D4185" />
+</security>
+<autologin>
+<mac level="1" mac="D314DCA9C9A2C551F9C6E8FB8606A215476DF495" page="PAGE1.XML" />
+<mac level="0" mac="808EAD33FECD4F0FC52750DD30631AB49A74885F" />
+<mac level="0" mac="808EAD33FECD4F0FC52750DD30631AB49A74885F" />
+<mac level="0" mac="808EAD33FECD4F0FC52750DD30631AB49A74885F" />
+<mac level="0" mac="808EAD33FECD4F0FC52750DD30631AB49A74885F" />
+<mac level="0" mac="808EAD33FECD4F0FC52750DD30631AB49A74885F" />
+<mac level="0" mac="808EAD33FECD4F0FC52750DD30631AB49A74885F" />
+<mac level="0" mac="808EAD33FECD4F0FC52750DD30631AB49A74885F" />
+<mac level="0" mac="808EAD33FECD4F0FC52750DD30631AB49A74885F" />
+<mac level="0" mac="808EAD33FECD4F0FC52750DD30631AB49A74885F" />
+</autologin>
+</web>
+<!--Crc="C1AC"-->
